@@ -1,4 +1,4 @@
 [build]
     publish = "dist"
-    command = "npm run build"
+    command = "npm run build && node ./scripts/create-env.js"
 
